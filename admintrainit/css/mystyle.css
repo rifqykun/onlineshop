@@ -1,0 +1,56 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+#wrap
+{
+	width: 100%;
+	background: #202020;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+.navbar-side
+{
+	background: #202020;
+}
+.navbar-side ul li
+{
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+.navbar-side ul li:hover a
+{
+	color: black;
+}
+.navbar-side ul li a
+{
+	color: #fff;
+}
+#page-wrapper
+{
+	padding: 15px;
+	background: #f3f3f3;
+}
+#page-inner
+{
+	padding: 15px;
+	background: white;
+	padding-bottom: 1000px;
+}
+@media (min-width: 768px)
+{
+	#page-wrapper
+	{
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1000px;
+	}
+	.navbar-side
+	{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1000px;
+	}
+}
